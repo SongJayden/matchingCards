@@ -154,7 +154,7 @@ body {
 }
 
 .card-front {
-  background-image: url(Assets/Images/FrontImg.jpg);
+  background-image: url(Assets/Images/frontImg.jpg);
   background-color: white;
   border-color: #333;
   transform: rotateY(180deg);
