@@ -31,7 +31,7 @@ body {
   font-family: Creepy, serif;
   font-weight: normal;
   text-align: center;
-  font-size: 6em;
+  font-size: 4em;
 }
 
 .game-info-container {
@@ -98,48 +98,13 @@ body {
   background-image: url(Assets/Images/BackBig.jpg);
 }
 
-/* .cob-web {
-  position: absolute;
-  transition: width 100ms ease-in-out, height 100ms ease-in-out;
-  width: 47px;
-  height: 47px;
-} */
-
-/* .card-face:hover .cob-web {
-  width: 52px;
-  height: 52px;
-} */
-
-/* .cob-web-top-left {
-  transform: rotate(270deg);
-  top: 0;
-  left: 0;
-}
-
-.cob-web-top-right {
-  top: 0;
-  right: 0;
-}
-
-.cob-web-bottom-left {
-  transform: rotate(180deg);
-  bottom: 0;
-  left: 0;
-}
-
-.cob-web-bottom-right {
-  transform: rotate(90deg);
-  bottom: 0;
-  right: 0;
-} */
-
-.spider {
+.hat {
   bottom: 20px;
   align-self: flex-start;
   transition: transform 100ms ease-in-out;
 }
 
-.card-back:hover .spider {
+.card-back:hover .hat {
   transform: scale(1.2);
 }
 
@@ -154,7 +119,6 @@ body {
 }
 
 .card-front {
-  background-image: url(Assets/Images/frontImg.jpg);
   background-color: white;
   border-color: #333;
   transform: rotateY(180deg);
@@ -205,11 +169,11 @@ body {
   }
   to {
     background-color: rgba(0, 0, 0, 0.8);
-    font-size: 10em;
+    font-size: 8em;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .game-container {
     grid-template-columns: repeat(2, auto);
   }
