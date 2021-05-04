@@ -4,6 +4,10 @@
  # Jayden's Matching Card Game
 [Check on the website](https://songjayden.github.io/matchingCards/)
 
+## Over View
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/8447473/116990824-c11a7b00-ad27-11eb-9c7a-a4b8e2ea9f43.gif)
+
+### Main page 
 <img width="788" alt="스크린샷 2021-05-04 오후 9 48 56" src="https://user-images.githubusercontent.com/8447473/116987469-38014500-ad23-11eb-8bad-6b80c945c0d4.png">
 
 
